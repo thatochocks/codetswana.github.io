@@ -47,14 +47,8 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Empowering Botswana developers and entrepreneurs.</h1>
-            <br>
-            <br>
-            <p class="lead event"><a href="https://www.facebook.com/events/312373398887377/?context=create&source=49">Tuesday 3 June: Introductory Developer Meeting at UB</a></p>
-            <p class="lead event" title="Event Coming Soon">Friday 6 June: Structuring and Deploying Applications</p>
-            <p class="lead">
-              <a href="/schedule.html" class="btn btn-lg btn-default">Full Schedule</a>
-            </p>
+            <p id="loading">Loading calendar...</p>
+            <iframe src="https://www.google.com/calendar/embed?src=codetswana%40gmail.com&ctz=Africa/Gaborone" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
           </div>
 
           <div class="mastfoot">
@@ -78,5 +72,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+      $("#loading").hide();
+    };
+    </script>
+
   </body>
 </html>
