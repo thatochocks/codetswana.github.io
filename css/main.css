@@ -3,9 +3,10 @@
  */
 
 /* Links */
-a,
-a:focus,
-a:hover {
+
+.masthead a,
+.masthead a:focus,
+.masthead a:hover {
   color: #444;
 }
 
