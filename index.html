@@ -1,82 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="codetswana home page">
-    <link rel="shortcut icon" href="favicon.ico">
+---
+layout: default
+title: codetswana | home
+---
 
-    <title>codetwana</title>
+<div class="site-wrapper">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <div class="site-wrapper-inner">
 
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+    <div class="cover-container">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-            <!-- razzi: this is where the logo should go -->
-              <h3 class="masthead-brand">codetswana</h3>
-              <ul class="nav masthead-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="about.html">About</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Empowering Botswana developers and entrepreneurs.</h1>
-            <br>
-            <br>
-            <p class="lead event"><a href="https://www.facebook.com/events/312373398887377/?context=create&source=49">Tuesday 3 June: Introductory Developer Meeting at UB</a></p>
-            <p class="lead event" title="Event Coming Soon">Friday 6 June: Structuring and Deploying Applications</p>
-            <p class="lead">
-              <a href="/schedule.html" class="btn btn-lg btn-default">Full Schedule</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner row">
-              <div class="col-md-2 col-md-offset-4">
-                <img src="img/github.png">
-                <img src="img/facebook.png">
-              </div>
-              <div class="col-md-2">
-                &copy; 2014</span>
-              </div>
-            </div>
-          </div>
-
+      <div class="masthead clearfix">
+        <div class="inner">
+          <!-- razzi: this is where the logo should go -->
+          <h3 class="masthead-brand">codetswana</h3>
+          <ul class="nav masthead-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
         </div>
-
       </div>
 
+      <div class="inner cover">
+        <h1 class="cover-heading">Empowering Botswana developers and entrepreneurs.</h1>
+        <br>
+        <p class="lead event"><a href="https://www.facebook.com/events/312373398887377/?context=create&source=49">Tuesday 3 June: Introductory Developer Meeting at UB</a></p>
+        <p class="lead event" title="Event Coming Soon">Friday 6 June: Structuring and Deploying Applications</p>
+        <p class="lead">
+          <a href="/schedule.html" class="btn btn-lg btn-default">Full Schedule</a>
+        </p>
+      </div>
+
+      {% include footer.html %}
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+  </div>
+
+</div>
