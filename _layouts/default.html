@@ -10,13 +10,13 @@
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,6 +26,51 @@
   </head>
 
   <body>
-    {{ content }}
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="/">codetswana</a></h3>
+              <ul class="nav masthead-nav">
+
+                {% if page.title == "resources" %}
+                  <li class="active"><a href="/resources.html">resources</a></li>
+                {% else %}
+                  <li><a href="/resources.html">resources</a></li>
+                {% endif %}
+
+                {% if page.title == "schedule" %}
+                  <li class="active"><a href="/schedule.html">schedule</a></li>
+                {% else %}
+                  <li><a href="/schedule.html">schedule</a></li>
+                {% endif %}
+
+                {% if page.title == "news" %}
+                  <li class="active"><a href="/news.html">news</a></li>
+                {% else %}
+                  <li><a href="/news.html">news</a></li>
+                {% endif %}
+
+                {% if page.title == "about" %}
+                  <li class="active"><a href="/about.html">about</a></li>
+                {% else %}
+                  <li><a href="/about.html">about</a></li>
+                {% endif %}
+
+              </ul>
+            </div>
+          </div>
+
+          {{ content }}
+
+          {% include footer.html %}
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
