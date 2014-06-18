@@ -1,5 +1,6 @@
 ---
 title: Online Learning Resources
+layout: default
 summary: Razzi and Alex present free websites where you can improve your skills as a developer.
 ---
 
