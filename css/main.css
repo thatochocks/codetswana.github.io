@@ -22,14 +22,14 @@
  * Base structure
  */
 
-html,
+/*html,
 body {
   height: 100%;
 }
 body {
   text-align: center;
 }
-
+*/
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -109,11 +109,6 @@ body {
 
 
 /*
- * Footer
- */
-
-
-/*
  * Affix and center
  */
 
@@ -148,7 +143,7 @@ body {
 }
 
 .cover {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .event {
