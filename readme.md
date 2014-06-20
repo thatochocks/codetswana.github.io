@@ -1,8 +1,8 @@
 # codetswana.github.io
 
-This is the static site content for codetswana.com.
+This is the static site for codetswana.com.
 
-It uses [Jekyll](http://jekyllrb.com/) and is hosted on [Github Pages](https://pages.github.com/).
+It is powered by [Jekyll](http://jekyllrb.com/) and is hosted on [Github Pages](https://pages.github.com/).
 
 To make modifications, ensure you are an administrator for the [Codetswana Github Group](https://github.com/codetswana/),
 clone the repository locally:
